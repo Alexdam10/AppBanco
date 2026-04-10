@@ -31,11 +31,11 @@ public class ClienteSucursal {
 
     // generar los metodos.
     public String nombreCompleto(){
-        return (nombre + "+" + apellido);
+        return ("tu nombre completo es " +nombre + " " + apellido);
     }
 
     public String direccionCompleta(){
-        return (direccion + "+" + localidad);
+        return ("Tu direccion completa es " +direccion + " " + localidad);
     }
 
 

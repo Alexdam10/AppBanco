@@ -1,9 +1,13 @@
 package AppSucursalBancaria;
 
+import java.time.LocalDate;
+
 public class AppBanco {
     public static void main(String[] args) {
         // crear el cliente 
-        ClienteSucursal c1 = new ClienteSucursal("1234A");
+        ClienteSucursal c1 = new ClienteSucursal("123456A", "Alejandro", "Paez", "San juan", "Madrid", LocalDate.now());
+        System.out.println(c1.nombreCompleto());
+        System.out.println(c1.direccionCompleta());
     }
     
 }
