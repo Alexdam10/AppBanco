@@ -12,6 +12,7 @@ public class AppBanco {
         CuentaCorriente cuenta1 = new CuentaCorriente(12345, c1);
 
         System.out.println(cuenta1);
+        System.out.println("Fin de programa");
     }
     
 }
